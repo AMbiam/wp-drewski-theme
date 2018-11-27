@@ -1,0 +1,137 @@
+/*Green Shades*/
+.color-1 {color: #579e51;}
+.color-2 {color: #4c8a47;}
+.color-3 {color: #41773d;}
+.color-4 {color: #366333;}
+.color-5 {color: #2b4f29;}
+.color-6 {color: #213b1e;}
+.color-7 {color: #162814;}
+.color-8 {color: #0b140a;}
+
+#view{
+	/*background-color: #fff;*/
+}
+
+.template-col{
+	min-height: 100vh;
+}
+
+.pos-fixed{
+	position: fixed;
+}
+
+#nav_bar{
+	width: 8vw;
+	/*background-color: #000;*/
+	left:0;
+}
+
+.nav-font{
+	font-size: 5vw;
+}
+
+.nav-icon{
+	min-height: 5vw;
+	width: 100%;
+	/*border-width: 10px;
+	border-color: #fff;
+	border: solid;*/
+	position: relative;
+	text-align: center;
+	color:#888;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nav-icon:hover{
+	/*background-color: #579e51;*/
+	color:#579e51;
+}
+
+.nav-tab{ color:#41773d; padding:2px;}
+.nav-tab:hover{ background-color: #162814; color:#579e51; }
+
+.nb-icon{
+	padding:5px;
+	font-size: 62pt;
+	color: #579e51;
+}
+.nb-icon:hover{ color: #2b4f29; }
+
+.full-width{ width:100%; }
+.quarter-width{ width:25%; }
+.tenth-width{ width:10%; }
+
+.primary-bg{
+	background-color: #fff;
+	color: #000;
+}
+
+.secondary-bg{
+	background-color: #000;
+	color: #fff;
+}
+
+#searchform{
+	background-color: #fff;
+	width: 50%;
+    border-radius: 25px;
+    padding: 5px;
+}
+#searchform input{ border:none; }
+#searchform #s{
+	width: 70%;
+	font-size: 24pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#searchform #s:focus{ outline: none; }
+#searchform #searchsubmit{ width: 15%; }
+#searchform label{ display: none; }
+
+/*font Colors*/
+.page-link{
+	text-decoration: none;
+	font-size: 18pt;
+	color: #41773d;
+}
+
+.page-link:hover{
+	color: #213b1e;
+}
+
+.header-dark-lg{
+	color: #579e51;
+	font-size: 42pt;
+	font-family: 'Audiowide', cursive;
+}
+.body-text{
+	font-family: 'Raleway', sans-serif;
+}
+
+.home-link{
+	background-color:#579e51;
+}
+
+.home-link:hover{
+	background-color:#41773d;
+}
+
+body{ 
+	background-color: #fff;
+	background-repeat: no-repeat;
+    background-size: 25% auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tp-large{
+	padding-top: 5vw;
+}
+
+a{text-decoration: none;color: #41773d;}
+a:hover{text-decoration: none;color: #213b1e;}
+
+#page_navigation{
+
+	background-color: #579e51;
+}
