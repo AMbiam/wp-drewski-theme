@@ -3,7 +3,9 @@
 	
 
  <?php the_content(); ?>
-<p class="blog-post-meta">
-	Published: <?php the_date();?>
-</p>
+ 	<?php if(!is_page()): ?>
+		<p class="blog-post-meta">
+			 Published: <?php the_date();?>
+		</p>
+	<?php endif; ?>
 </div><!-- /.blog-post -->

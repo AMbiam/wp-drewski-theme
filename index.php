@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 	<div class="container-fluid">
 		<div class="row">
-			<div id="navigation" class="col-xs-1 template-col">
+			<div id="navigation" class="col-sm-1">
 				<?php get_sidebar(); ?>
 			</div>
-			<div id="view" class="col-xs-11 template-col">
+			<div id="view" class="col-sm-11 template-col">
 				<div id="wp_content">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<!-- contents of the loop -->

@@ -16,6 +16,10 @@
 	min-height: 100vh;
 }
 
+.template-row{
+	min-width: 100vw;
+}
+
 .pos-fixed{
 	position: fixed;
 }
@@ -24,6 +28,9 @@
 	width: 8vw;
 	/*background-color: #000;*/
 	left:0;
+}
+#vert_nav_bar{
+	/*height: 10vh;*/
 }
 
 .nav-font{
