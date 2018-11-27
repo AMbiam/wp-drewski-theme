@@ -58,11 +58,21 @@
 .nav-tab:hover{ background-color: #162814; color:#579e51; }
 
 .nb-icon{
-	padding:5px;
 	font-size: 62pt;
+}
+.nb-icon-horizontal{
+	font-size: 32pt;
+}
+
+.nb-icon-horizontal,
+.nb-icon{
+	padding:5px;
 	color: #579e51;
 }
+
+.nb-icon-horizontal:hover,
 .nb-icon:hover{ color: #2b4f29; }
+
 
 .full-width{ width:100%; }
 .quarter-width{ width:25%; }
@@ -140,5 +150,29 @@ a:hover{text-decoration: none;color: #213b1e;}
 
 #page_navigation{
 
+	background-color: #579e51;
+}
+
+#stripe{
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#stripe{
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	/*background-color: #fff;
+	opacity: 0.05;*/
+	z-index: -10;
+}
+
+#stripe-color{
+	height: 100vh;
 	background-color: #579e51;
 }
