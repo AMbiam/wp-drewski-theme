@@ -1,5 +1,5 @@
 <!-- Return back to home page -->
-<div id="nav_bar" class="template-col pos-fixed hidden-xs">
+<div id="nav_bar" class="template-col pos-fixed hidden-xs primary-bg">
 
 	<div id="vertical-logo" class="home-link">
 		<a href="<?php echo get_bloginfo( 'wpurl' );?>">
@@ -43,7 +43,7 @@
 
 
 <!-- Top Navigation -->
-<div id="vert_nav_bar" class="template-row hidden-sm hidden-md hidden-lg">
+<div id="vert_nav_bar" class="template-row hidden-sm hidden-md hidden-lg primary-bg">
 	<div class="row">
 		<div class="col-xs-2">
 			<div id="horizontal-logo" class="home-link">
@@ -58,7 +58,7 @@
 
 		<!-- Navigation Tabs -->
 
-		<div class="col-xs-3 nav-tab" onclick="expandNavigation();showPageList();showSearch()">
+		<div class="col-xs-offset-1 col-xs-3 nav-tab" onclick="expandNavigation();showPageList();showSearch()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			</div>
