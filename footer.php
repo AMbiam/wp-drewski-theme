@@ -1,7 +1,7 @@
     </div> <!-- /.container -->
 		<footer class="blog-footer">
-      <p align="center">Template <a href="http://getbootstrap.com">Custom</a> by <a href="#">Andrew Mbiam</a></p>
-      <p align="center">Built with Bootstrap and JQuery</p>
+      <p align="center">Template <a href="#">Drewski</a> by <a href="https://www.instagram.com/drewmbiam/">Andrew Mbiam</a></p>
+      <p align="center">Built with <a href="http://getbootstrap.com">Bootstrap</a> and <a href="https://jquery.com/">JQuery</a></p>
       <p align="center">All rights reserved. &copy; <?php echo date('Y',time()); ?>
     </footer>
 

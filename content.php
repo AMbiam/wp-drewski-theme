@@ -8,16 +8,14 @@
 		  ?>
 
 		  <div  class="splash" style="background-image: url('<?php echo $image[0]; ?>')">
-		  	..
 		<?php else: ?>
 			<div class="splash">
-				...
 		<?php endif; ?>
-		
+		<div class="splash-cover"></div>
 
 		<div class="splash-text">
-			<h2 class="header-dark-lg"><?php the_title(); ?></h2>
-			<p class="blog-post-meta">Published: <?php the_date();?></p>
+			<h2 class="header-lg secondary-font-color"><?php the_title(); ?></h2>
+			<p class="blog-post-meta secondary-font-color">Published: <?php the_date();?></p>
 		</div>
 
 		</div>	
