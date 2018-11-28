@@ -1,3 +1,6 @@
+<?php
+add_theme_support( 'post-thumbnails' ); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
