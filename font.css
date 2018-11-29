@@ -1,0 +1,26 @@
+/*
+	vt: Vertical
+	hz: Horizontal
+*/
+
+.nb-icon-vt{ font-size: 62pt; }
+.nb-icon-hz{ font-size: 32pt; }
+
+.nb-icon-hz,
+.nb-icon-vt{
+	padding:5px;
+	color: #579e51;
+}
+
+.nb-icon-hz:hover,
+.nb-icon-vt:hover
+{ 
+	color: #2b4f29; 
+}
+
+.header-lg{ font-size: 7vw; }
+.subheader-lg { font-size: 2.2vw; }
+
+#wp-main-content p{ font-size: 3.5vw; }
+
+p{ font-family: 'Raleway', sans-serif; }

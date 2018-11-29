@@ -22,6 +22,7 @@ add_theme_support( 'post-thumbnails' );
 
 		
 		<link href="<?php echo get_bloginfo('template_directory'); ?>/portfolio.css" rel="stylesheet">
+		<link href="<?php echo get_bloginfo('template_directory'); ?>/font.css" rel="stylesheet">
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/portfolio.js"></script>
 		
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Raleway" rel="stylesheet">

@@ -56,23 +56,8 @@
 
 .nav-tab{ color:#41773d; padding:2px;}
 .nav-tab:hover{ background-color: #162814; color:#579e51; }
-
-.nb-icon{
-	font-size: 62pt;
-}
-.nb-icon-horizontal{
-	font-size: 32pt;
-}
-
-.nb-icon-horizontal,
-.nb-icon{
-	padding:5px;
-	color: #579e51;
-}
-
-.nb-icon-horizontal:hover,
-.nb-icon:hover{ color: #2b4f29; }
-
+.nav-tab-hz{ color:#41773d; padding:2px; vertical-align: bottom;}
+.nav-tab-hz:hover{ background-color: #162814; color:#579e51; }
 
 .full-width{ width:100%; }
 .quarter-width{ width:25%; }
@@ -117,11 +102,12 @@
 	font-family: 'Audiowide', cursive;
 }
 
+/*
 .header-lg{
 	font-size: 42pt;
 	font-family: 'Audiowide', cursive;
 }
-
+*/
 .body-text{
 	font-family: 'Raleway', sans-serif;
 }
@@ -133,6 +119,8 @@
 .home-link:hover{
 	background-color:#41773d;
 }
+
+.no-padding{ padding:0; }
 
 body{ 
 	background-color: #fff;

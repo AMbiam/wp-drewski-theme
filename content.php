@@ -15,12 +15,14 @@
 
 		<div class="splash-text">
 			<h2 class="header-lg secondary-font-color"><?php the_title(); ?></h2>
-			<p class="blog-post-meta secondary-font-color">Published: <?php the_date();?></p>
+			<p class="blog-post-meta secondary-font-color subheader-lg">Published: <?php the_date();?></p>
 		</div>
 
 		</div>	
 	<?php endif; ?>
 
-	<?php the_content(); ?>
+	<div id="wp-main-content">
+		<?php the_content(); ?>
+	</div>
 
 </div><!-- /.blog-post -->

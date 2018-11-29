@@ -7,7 +7,7 @@
 		</a>
 	</div>
 	<div id="close-button" class="text-center hide" onclick="clearWindow();renderView()">
-		<span class="glyphicon glyphicon-remove nb-icon" aria-hidden="true"></span>
+		<span class="glyphicon glyphicon-remove nb-icon-vt" aria-hidden="true"></span>
 	</div>
 
 	<div class="tp-large"></div>
@@ -45,20 +45,20 @@
 <!-- Top Navigation -->
 <div id="vert_nav_bar" class="template-row hidden-sm hidden-md hidden-lg primary-bg">
 	<div class="row">
-		<div class="col-xs-2">
+		<div class="col-xs-1 no-padding">
 			<div id="horizontal-logo" class="home-link">
 				<a href="<?php echo get_bloginfo( 'wpurl' );?>">
 					<img src="<?php echo get_bloginfo('template_directory'); ?>/assets/amlogo-white.png" class="full-width"/>
 				</a>
 			</div>
 			<div id="horizontal-close-button" class="text-center hide" onclick="clearWindow();renderView()">
-				<span class="glyphicon glyphicon-remove nb-icon-horizontal" aria-hidden="true"></span>
+				<span class="glyphicon glyphicon-remove nb-icon-hz" aria-hidden="true"></span>
 			</div>
 		</div>
 
 		<!-- Navigation Tabs -->
 
-		<div class="col-xs-offset-1 col-xs-3 nav-tab" onclick="expandNavigation();showPageList();showSearch()">
+		<div class="col-xs-offset-2 col-xs-3 nav-tab-hz" onclick="expandNavigation();showPageList();showSearch()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			</div>
@@ -66,7 +66,7 @@
 				<p>Find</p>
 			</div>
 		</div>
-		<div class="col-xs-3 nav-tab" onclick="clearWindow();expandNavigation();showPageList();showPages()">
+		<div class="col-xs-3 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPages()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
 			</div>
@@ -74,7 +74,7 @@
 				<p>Pages</p>
 			</div>
 		</div>
-		<div class="col-xs-3 nav-tab" onclick="clearWindow();expandNavigation();showPageList();showPosts()">
+		<div class="col-xs-3 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPosts()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 			</div>
