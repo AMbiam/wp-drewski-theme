@@ -29,4 +29,4 @@ add_theme_support( 'post-thumbnails' );
 		
 		<?php wp_head();?>
 	</head>
-	<body style="background-image: url(<?php echo get_bloginfo('template_directory'); ?>/assets/Portrait-bg-01.png)">
+	<body>

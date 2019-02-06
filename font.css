@@ -9,7 +9,7 @@
 .nb-icon-hz,
 .nb-icon-vt{
 	padding:5px;
-	color: #579e51;
+	color: #fff;
 }
 
 .nb-icon-hz:hover,
@@ -20,6 +20,9 @@
 
 .header-lg{ font-size: 7vw; }
 .subheader-lg { font-size: 2.2vw; }
+
+.header-md{ font-size: 4vw; }
+.subheader-md { font-size: 2vw; }
 
 #wp-main-content p{ font-size: 3.5vw; }
 

@@ -1,4 +1,4 @@
-<!-- Return back to home page -->
+<!-- Return back to home page - ->
 <div id="nav_bar" class="template-col pos-fixed hidden-xs primary-bg">
 
 	<div id="vertical-logo" class="home-link">
@@ -12,7 +12,7 @@
 
 	<div class="tp-large"></div>
 
-	<!-- Navigation Tabs -->
+	<!-- Navigation Tabs - ->
 	<div class="container-fluid">
 		<div class="row nav-tab" onclick="expandNavigation();showPageList();showSearch()">
 			<div class="col-xs-4">
@@ -39,18 +39,25 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
 
 
-<!-- Top Navigation -->
-<div id="vert_nav_bar" class="template-row hidden-sm hidden-md hidden-lg primary-bg">
-	<div class="row">
+<!-- Top Navigation 
+<div id="vert_nav_bar" class="template-row hidden-sm hidden-md hidden-lg primary-bg">-->
+
+<!--<div id="vert_nav_barxx" class="container-fluid">-->
+
+	<div id="nav-bar-top" class="row ng-bg-2">
 		<div class="col-xs-1 no-padding">
-			<div id="horizontal-logo" class="home-link">
+			<!--<div id="horizontal-logo" class="home-link">
 				<a href="<?php echo get_bloginfo( 'wpurl' );?>">
 					<img src="<?php echo get_bloginfo('template_directory'); ?>/assets/amlogo-white.png" class="full-width"/>
 				</a>
+			</div>-->
+			<div id="" class="text-center hide" onclick="">
+				<span class="glyphicon glyphicon-remove nb-icon-hz" aria-hidden="true"></span>
 			</div>
+
 			<div id="horizontal-close-button" class="text-center hide" onclick="clearWindow();renderView()">
 				<span class="glyphicon glyphicon-remove nb-icon-hz" aria-hidden="true"></span>
 			</div>
@@ -58,7 +65,7 @@
 
 		<!-- Navigation Tabs -->
 
-		<div class="col-xs-offset-2 col-xs-3 nav-tab-hz" onclick="expandNavigation();showPageList();showSearch()">
+		<div class="col-xs-offset-2 col-xs-2 nav-tab-hz" onclick="expandNavigation();showPageList();showSearch()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			</div>
@@ -66,7 +73,7 @@
 				<p>Find</p>
 			</div>
 		</div>
-		<div class="col-xs-3 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPages()">
+		<div class="col-xs-2 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPages()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
 			</div>
@@ -74,7 +81,7 @@
 				<p>Pages</p>
 			</div>
 		</div>
-		<div class="col-xs-3 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPosts()">
+		<div class="col-xs-2 nav-tab-hz" onclick="clearWindow();expandNavigation();showPageList();showPosts()">
 			<div class="col-xs-4">
 				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 			</div>
@@ -84,5 +91,23 @@
 		</div>
 
 	</div>
-</div>
+	<div class="row ng-bg-2 tp-medium">
+		<div class="col-xs-0">
+			<div class="home-link">
+				<!--<a href="<?php echo get_bloginfo( 'wpurl' );?>">
+					<img src="<?php echo get_bloginfo('template_directory'); ?>/assets/amlogo-white.png" class="full-width"/>
+					
+				</a>-->
+			</div>
+		</div>
+		<div class="col-xs-11">
+			<div class="col-xs-11">
+				<p class="header-md secondary-font-color"><?php the_title(); ?></p>
+			</div>
+			<div class="col-xs-11">
+				<p class="subheader-md color-8"><?php the_date();?></p>
+			</div>
+		</div>
+	</div>
+<!--</div>-->
 

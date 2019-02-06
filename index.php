@@ -15,10 +15,10 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div id="navigation" class="col-sm-1">
+			<div id="navigation" class="col-sm-12">
 				<?php get_sidebar(); ?>
 			</div>
-			<div id="view" class="col-sm-11 template-col">
+			<div id="view" class="col-sm-12 template-col">
 				<div id="wp_content">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<!-- contents of the loop -->

@@ -14,8 +14,8 @@
 		<div class="splash-cover"></div>
 
 		<div class="splash-text">
-			<h2 class="header-lg secondary-font-color"><?php the_title(); ?></h2>
-			<p class="blog-post-meta secondary-font-color subheader-lg">Published: <?php the_date();?></p>
+			<!--<h2 class="header-lg secondary-font-color"><?php the_title(); ?></h2>-->
+			<p class="blog-post-meta secondary-font-color subheader-lg ng-bg-3">Published: <?php the_date();?></p>
 		</div>
 
 		</div>	
