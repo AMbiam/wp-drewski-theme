@@ -114,11 +114,11 @@
 .page-link{
 	text-decoration: none;
 	font-size: 18pt;
-	color: #41773d;
+	color: #909E51;
 }
 
 .page-link:hover{
-	color: #213b1e;
+	color: #9E516A;
 }
 
 .header-dark-lg{
@@ -178,7 +178,7 @@ a:hover{text-decoration: none;color: #213b1e;}
 
 .stripe-color{
 	height: 100vh;
-	background-color: #579e51;
+	background-color: #9E516A;
 }
 
 .splash{
@@ -192,7 +192,7 @@ a:hover{text-decoration: none;color: #213b1e;}
 .splash-cover{
 	width: 100%;
 	height: 100%;
-	background-color: #000;
+	/*background-color: #000;*/
 	opacity: .3;
 }
 

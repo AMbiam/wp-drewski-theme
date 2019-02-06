@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-	<div id="stripe" class="container">
+	<!--<div id="stripe" class="container">
 		<?php if(!is_page()): ?>
-			<!-- Stripe for Posts only-->
+			<!-- Stripe for Posts only- ->
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-1 stripe-color">
 				
@@ -11,7 +11,7 @@
 					</div>
 				</div>
 		<?php endif; ?>
-	</div>
+	</div>-->
 
 	<div class="container-fluid">
 		<div class="row">
@@ -70,8 +70,8 @@
 				?>
 				<div id="pages" class="hide">
 					<div class="row">
-						<div class="col-sm-offset-3 col-sm-4 text-center">
-							<h1 class="header-dark-lg"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
+						<div class="col-sm-4">
+							<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
 						</div>
 					</div>
 					<?php $count = 0; ?>
@@ -125,8 +125,8 @@
 				?>
 				<div id="posts" class="hide">
 					<div class="row">
-						<div class="col-sm-offset-3 col-sm-4 text-center">
-							<h1 class="header-dark-lg"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blog</h1>
+						<div class="col-sm-4">
+							<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blog</h1>
 						</div>
 					</div>
 					<?php $count = 0; ?>
