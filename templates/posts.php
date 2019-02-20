@@ -43,12 +43,12 @@
 				$thumb = get_post_thumbnail_id( $post->ID );
 	  			$image = wp_get_attachment_image_src($thumb,'single-post-thumbnail'); 
 	  		?>
-		  		
-			<div style="background-image: url(<?= $image ?>)" class="bg-paralax ng-bg-4">
-				<div class="full-width top-margin-small top-padding-lg bottom-padding-lg ng-bg-2">
+
+			<div style="background-image: url(<?= $image[0] ?>)" class="bg-paralax ng-bg-4">
+				<div class="full-width top-margin-small top-padding-lg bottom-padding-lg ng-bg-2 bg-cover">
 					<div class="ng-bg-white three-quarter-width left-margin-md">
 						<a href="<?php echo get_page_link($page->ID)?>" class="page-link left-padding-sm">
-						    <?php echo $page->post_title; ?>
+						    <?php echo $post->post_title; ?>
 						</a>
 					</div>
 					<div class="ng-bg-4 ng-color-white three-quarter-width left-margin-md">
