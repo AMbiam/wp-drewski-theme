@@ -1,18 +1,4 @@
 <?php get_header(); ?>
-	<!--<div id="stripe" class="container">
-		<?php if(!is_page()): ?>
-			<!-- Stripe for Posts only- ->
-				<div class="row">
-					<div class="col-xs-offset-1 col-xs-1 stripe-color">
-				
-					</div>
-					<div class="col-xs-offset-8 col-xs-1 stripe-color">
-				
-					</div>
-				</div>
-		<?php endif; ?>
-	</div>-->
-
 	<div class="container-fluid">
 		<div class="row">
 			<div id="navigation" class="col-sm-12">

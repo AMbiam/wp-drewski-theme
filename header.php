@@ -1,5 +1,6 @@
 <?php
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );
+require('config.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,9 +21,12 @@ add_theme_support( 'post-thumbnails' );
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<!-- Style Sheets -->
+		<link href="<?= CSS_STYLES; ?>portfolio.css" rel="stylesheet">
+		<link href="<?= CSS_STYLES; ?>font.css" rel="stylesheet">
+		<link href="<?= CSS_STYLES; ?>colours.css" rel="stylesheet">
 		
-		<link href="<?php echo get_bloginfo('template_directory'); ?>/portfolio.css" rel="stylesheet">
-		<link href="<?php echo get_bloginfo('template_directory'); ?>/font.css" rel="stylesheet">
+
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/portfolio.js"></script>
 		
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Raleway" rel="stylesheet">
