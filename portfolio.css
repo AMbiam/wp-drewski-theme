@@ -6,12 +6,47 @@
 .ng-color-5 {color: #519E98;}
 .ng-color-6 {color: #51919E;}
 
+.ng-color-black {color: #000;}
+.ng-color-white {color: #fff;}
+
 .ng-bg-1 {background-color: #519E85;} /*Green*/
 .ng-bg-2 {background-color: #5E519E;} /*Blue*/
 .ng-bg-3 {background-color: #9E516A;} /*Red*/
 .ng-bg-4 {background-color: #909E51;} /*Gold*/
 .ng-bg-5 {background-color: #519E98;}
 .ng-bg-6 {background-color: #51919E;}
+
+.bg-paralax{
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.bg-cover{
+
+}
+
+.bg-cover:hover{
+	background-color:transparent;
+}
+
+.ng-bg-black {background-color: #000;}
+.ng-bg-white {background-color: #fff;}
+
+.style-padding{
+	margin-top: 
+ padding:10%;
+}
+
+/*Margins*/
+.top-margin-small{margin-top: 25px;}
+.left-margin-md{margin-left:10%;}
+/*Padding*/
+.top-padding-sm{padding-top: 10px;}
+.left-padding-sm{padding-left: 10px;}
+.top-padding-lg{padding-top: 8vmax;}
+.bottom-padding-lg{padding-bottom: 8vmax;}
+
+
 
 /*Green Shades*/
 .color-1 {color: #579e51;}
@@ -85,6 +120,7 @@
 .nav-tab-hz:hover{ background-color: #519E85; color:#fff; }
 
 .full-width{ width:100%; }
+.three-quarter-width{ width:75%; }
 .quarter-width{ width:25%; }
 .tenth-width{ width:10%; }
 

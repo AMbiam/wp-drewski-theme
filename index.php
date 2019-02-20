@@ -44,114 +44,11 @@
 				</div>
 
 				<!-- Pages -->
-				<?php
-					$args = array(
-						'sort_order' => 'asc',
-						'sort_column' => 'post_title',
-						'hierarchical' => 1,
-						'exclude' => '',
-						'include' => '',
-						'meta_key' => '',
-						'meta_value' => '',
-						'authors' => '',
-						'child_of' => 0,
-						'parent' => -1,
-						'exclude_tree' => '',
-						'number' => '',
-						'offset' => 0,
-						'post_type' => 'page',
-						'post_status' => 'publish'
-					);
-
-					/*ps: per section*/
-					$pages = get_pages($args);
-					$pages_ps = ceil(count($pages)/3); 
-
-				?>
-				<div id="pages" class="hide">
-					<div class="row">
-						<div class="col-sm-4">
-							<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
-						</div>
-					</div>
-					<?php $count = 0; ?>
-					<div class="row">
-						<!-- Opening div for Pages -->
-						<div class="col-md-4 body-text">
-						<?php foreach($pages as $page): ?>
-							<?php if($pages_ps == $count ||  $count == ($pages_ps*2))  : ?>
-								<!-- Create New Section -->
-								</div>
-								<div class="col-md-4 body-text">
-							<?php endif; ?>
-
-							<div>
-								<a href="<?php echo get_page_link($page->ID)?>" class="page-link">
-								    <?php echo $page->post_title; ?>
-								</a>
-							</div>
-							<?php $count++; ?>
-						<?php endforeach; ?>
-						</div> 
-						<!-- Closing div for Pages -->
-					</div>
-				</div>
+				<?php include('templates/pages.php'); ?>
 
 
 				<!-- Blog Posts -->
-				<?php
-					$args = array(
-						'sort_order' => 'asc',
-						'sort_column' => 'post_title',
-						'hierarchical' => 1,
-						'exclude' => '',
-						'include' => '',
-						'meta_key' => '',
-						'meta_value' => '',
-						'authors' => '',
-						'child_of' => 0,
-						'parent' => -1,
-						'exclude_tree' => '',
-						'number' => '',
-						'offset' => 0,
-						'post_type' => 'page',
-						'post_status' => 'publish'
-					);
-
-					/*ps: per section*/
-					$posts = get_posts();
-					$posts_ps = ceil(count($posts)/3); 
-
-				?>
-				<div id="posts" class="hide">
-					<div class="row">
-						<div class="col-sm-4">
-							<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blog</h1>
-						</div>
-					</div>
-					<?php $count = 0; ?>
-					<div class="row">
-						<!-- Opening div for Pages -->
-						<div class="col-md-4 body-text">
-						<?php foreach($posts as $post): ?>
-							<?php if($posts_ps == $count ||  $count == ($posts_ps*2))  : ?>
-								<!-- Create New Section -->
-								</div>
-								<div class="col-md-4 body-text">
-							<?php endif; ?>
-
-							<div>
-								<a href="<?php echo get_page_link($post->ID)?>" class="page-link">
-								    <?php echo $post->post_title; ?>
-								</a>
-								<?php echo date("M d, Y", strtotime($post->post_date)); ?>
-							</div>
-							<?php $count++; ?>
-						<?php endforeach; ?>
-						</div> 
-						<!-- Closing div for Pages -->
-					</div>
-				</div>
+				<?php include('templates/posts.php'); ?>
 			</div>
 		</div>
 	</div>
