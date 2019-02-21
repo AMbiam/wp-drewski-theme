@@ -9,13 +9,11 @@
 .nb-icon-hz,
 .nb-icon-vt{
 	padding:5px;
-	color: #fff;
 }
 
 .nb-icon-hz:hover,
 .nb-icon-vt:hover
 { 
-	color: #2b4f29; 
 }
 
 .header-lg{ font-size: 7vw; }
@@ -27,3 +25,28 @@
 #wp-main-content p{ font-size: 3.5vw; }
 
 p{ font-family: 'Raleway', sans-serif; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#wp-main-content p{ font-size: 4vw; }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#wp-main-content p{ font-size: 2.5vw; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#wp-main-content p{ font-size: 2vw; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#wp-main-content p{ font-size: 1.5vw; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#wp-main-content p{ font-size: 1.5vw; }
+}

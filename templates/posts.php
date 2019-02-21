@@ -13,7 +13,7 @@
 		'exclude_tree' => '',
 		'number' => '',
 		'offset' => 0,
-		'post_type' => 'page',
+		'post_type' => 'post',
 		'post_status' => 'publish'
 	);
 
@@ -25,7 +25,7 @@
 <div id="posts" class="hide">
 	<div class="row">
 		<div class="col-sm-4">
-			<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blog</h1>
+			<h1 class="header-lg ng-color-2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blog</h1>
 		</div>
 	</div>
 	<?php $count = 0; ?>
@@ -47,11 +47,11 @@
 			<div style="background-image: url(<?= $image[0] ?>)" class="bg-paralax ng-bg-4">
 				<div class="full-width top-margin-small top-padding-lg bottom-padding-lg ng-bg-2 bg-cover">
 					<div class="ng-bg-white three-quarter-width left-margin-md">
-						<a href="<?php echo get_page_link($page->ID)?>" class="page-link left-padding-sm">
+						<a href="<?php echo get_page_link($post->ID)?>" class="page-link left-padding-sm">
 						    <?php echo $post->post_title; ?>
 						</a>
 					</div>
-					<div class="ng-bg-4 ng-color-white three-quarter-width left-margin-md">
+					<div class="ng-bg-4 ng-color-black three-quarter-width left-margin-md left-padding-sm">
 						<?php echo date("M d, Y", strtotime($post->post_date)); ?>
 					</div>
 				</div>

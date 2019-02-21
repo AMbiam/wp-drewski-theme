@@ -25,7 +25,7 @@
 <div id="pages" class="hide">
 	<div class="row">
 		<div class="col-sm-4">
-			<h1 class="header-lg ng-color-4"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
+			<h1 class="header-lg ng-color-2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
 		</div>
 	</div>
 	<?php $count = 0; ?>
@@ -40,7 +40,7 @@
 			<?php endif; ?>
 
 				<?php
-					$thumb = get_post_thumbnail_id( $post->ID );
+					$thumb = get_post_thumbnail_id( $page->ID );
 		  			$image = wp_get_attachment_image_src($thumb,'single-post-thumbnail'); 
 		  		?>
 				<div style="background-image: url(<?= $image[0] ?>)" class="bg-paralax ng-bg-4">
