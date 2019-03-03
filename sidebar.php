@@ -7,12 +7,12 @@
 
 	<!-- Navigation Tabs -->
 
-	<div class="col-xs-offset-2 col-xs-2 nav-tab-hz tab-color-main ng-color-white" onclick="expandNavigation();showPageList();showSearch()">
+	<div class="col-xs-offset-2 col-xs-2 nav-tab-hz tab-color-main ng-color-white" onclick="goHome()">
 		<div class="col-xs-4">
-			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 		</div>
 		<div class="col-xs-8">
-			<p>Find</p>
+			<p>Home</p>
 		</div>
 	</div>
 	<div class="col-xs-2 nav-tab-hz tab-color-main ng-color-white" onclick="clearWindow();expandNavigation();showPageList();showPages()">

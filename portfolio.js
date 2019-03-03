@@ -58,9 +58,14 @@
    function showPageList(){
         $('#page_navigation').removeClass('hide');
    }
-$(document).ready(function(){
-  /*
-    JQuery Functions go here.
-  */
-});
+
+    function goHome(){
+      window.location = '/';
+    }
+    
+    $(document).ready(function(){
+      /*
+        JQuery Functions go here.
+      */
+    });
 
