@@ -196,3 +196,12 @@ a:hover{text-decoration: none;}
 	right:0;
 	left:0;
 }
+
+.page_navigation{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.page_navigation:hover{
+	background-color: #FFE9E6;
+}

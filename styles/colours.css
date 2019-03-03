@@ -4,6 +4,7 @@
 
 .ng-color-2 {color: #FF4C3B;} /*Red*/
 .ng-bg-2 {background-color: #FF4C3B;} /*Red*/
+.ng-border-2 {border-color: #FF4C3B;}
 
 .ng-color-3 {color: #FFD034;} /*Gold*/
 .ng-bg-3 {background-color: #FFD034;} /*Gold*/
@@ -18,8 +19,8 @@
 .ng-color-white {color: #fff;}
 .ng-bg-white {background-color: #fff;}
 
-.tab-color-main{background-color: #0072BB;}
-.tab-color-main:hover{background-color: #FF4C3B;}
+.tab-color-main{background-color: #0072BB;}/*Blue*/
+.tab-color-main:hover{background-color: #4095CC;} /*Blue Tint*/
 
 .font-color-main{color: #fff;}
 .font-color-main:hover{color: #FFD034;}
