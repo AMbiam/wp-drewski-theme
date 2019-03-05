@@ -29,28 +29,41 @@ a{text-decoration: none;color: #FF4C3B;}
 a:hover{text-decoration: none;color: #FFD034;}
 
 
+.btn-1{
+	color: #fff;
+    background-color: #C6C8CA;
+    border-color: #0072BB;
+}
+.btn-1:hover{ background-color: #0072BB; }
+.btn-2{
+	color: #fff;
+    background-color: #C6C8CA;
+    border-color: #FF4C3B;
+}
+.btn-2:hover{ background-color: #FF4C3B; }
 
-/*Green Shades*/
-.color-1 {color: #f00;} /* Colors to Remove */
-.color-2 {color: #f00;} /* Colors to Remove */
-.color-3 {color: #f00;} /* Colors to Remove */
-.color-4 {color: #f00;} /* Colors to Remove */
-.color-5 {color: #f00;} /* Colors to Remove */
-.color-6 {color: #f00;} /* Colors to Remove */
-.color-7 {color: #f00;} /* Colors to Remove */
-.color-8 {color: #f00;} /* Colors to Remove */
+
+/*Green Shades* /
+.color-1 {color: #f00;} /* Colors to Remove * /
+.color-2 {color: #f00;} /* Colors to Remove * /
+.color-3 {color: #f00;} /* Colors to Remove * /
+.color-4 {color: #f00;} /* Colors to Remove * /
+.color-5 {color: #f00;} /* Colors to Remove * /
+.color-6 {color: #f00;} /* Colors to Remove * /
+.color-7 {color: #f00;} /* Colors to Remove * /
+.color-8 {color: #f00;} /* Colors to Remove * /
 
 .ng-bg-5 {background-color: #f00;}
 .ng-bg-6 {background-color: #f00;}
 .ng-color-5 {color: #f00;}
 .ng-color-6 {color: #f00;}
 
-/*Green Shades*/
-.bg-color-1 {background-color: #f00;} /* Colors to Remove */
-.bg-color-2 {background-color: #f00;} /* Colors to Remove */
-.bg-color-3 {background-color: #f00;} /* Colors to Remove */
-.bg-color-4 {background-color: #f00;} /* Colors to Remove */
-.bg-color-5 {background-color: #f00;} /* Colors to Remove */
-.bg-color-6 {background-color: #f00;} /* Colors to Remove */
-.bg-color-7 {background-color: #f00;} /* Colors to Remove */
+/*Green Shades * /
+.bg-color-1 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-2 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-3 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-4 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-5 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-6 {background-color: #f00;} /* Colors to Remove * /
+.bg-color-7 {background-color: #f00;} /* Colors to Remove * /
 .bg-color-8 {background-color: #f00;} /* Colors to Remove */

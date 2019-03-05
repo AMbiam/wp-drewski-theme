@@ -25,12 +25,18 @@ require('config.php');
 		<link href="<?= CSS_STYLES; ?>portfolio.css" rel="stylesheet">
 		<link href="<?= CSS_STYLES; ?>font.css" rel="stylesheet">
 		<link href="<?= CSS_STYLES; ?>colours.css" rel="stylesheet">
+		<link href="<?= CSS_STYLES; ?>animate.css" rel="stylesheet">
 		
 
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/portfolio.js"></script>
 		
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Raleway" rel="stylesheet">
-		
+
+		<!-- Angular JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="<?= SCRIPTS; ?>navigation.js"></script>
+		<script src="<?= SCRIPTS; ?>angular-animate.min.js"></script>
+
 		<?php wp_head();?>
 	</head>
 	<body>
