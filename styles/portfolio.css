@@ -15,7 +15,9 @@
 	background-color:transparent;
 }
 
-
+.no-margin{
+	margin:0px;
+}
 
 .style-padding{
 	margin-top: 
@@ -203,5 +205,11 @@ a:hover{text-decoration: none;}
 }
 
 .page_navigation:hover{
+	background-color: #FFE9E6;
+}
+
+.page-navigation-selected{
+	border-style: solid;
+	border-width: 1px;
 	background-color: #FFE9E6;
 }

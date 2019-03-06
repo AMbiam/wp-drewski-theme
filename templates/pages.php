@@ -16,19 +16,7 @@
 		'post_type' => 'page',
 		'post_status' => 'publish'
 	);
-
-	/*ps: per section*/
 	$pages = get_pages($args);
-	$pages_ps = ceil(count($pages)/3);
-	/*$menu = wp_list_pages();
-	var_dump($menu);
-	die();
-
-
-	$page->post_parent
-	This returns parent object of the post. Make some angular magic happen.
-	*/
-
 ?>
 <div id="pages" class="hide">
 	<div class="row">
@@ -61,56 +49,29 @@
 		?>
 		<navigate  ng-init="pages=[<?= $out ?>];display1()">
 			<div class="row">
-				<!-- Opening div for Pages Level 1 -->
-				<div class="col-md-4 body-text">
-					<div class="navi-item" ng-repeat="page in pagesL1">
-						<div class="page_navigation ng-border-2">
-							<div class="row">
-								<div class="col-xs-8">
-									<a href="{{page.url}}" class="page-link left-padding-sm">
-									    {{page.dName}}
-									</a>
-								</div>
-								<div ng-if="page.children">
-									<input class="btn btn-1" type="button" value="+" ng-click="display2(page.id)" />
-									<input class="btn btn-2" type="button" value="-" ng-click="display1()" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Opening div for Pages Level 2 -->
-				<div class="col-md-4 body-text navi-item">
-					<div class="navi-item" ng-repeat="page in pagesL2">
-						<div class="page_navigation ng-border-2">
-							<div class="row">
-								<div class="col-xs-8">
-									<a href="{{page.url}}" class="page-link left-padding-sm">
-									    {{page.dName}}
-									</a>
-								</div>
-								<div ng-if="page.children">
-									<input class="btn btn-1" type="button" value="+" ng-click="display3(page.id)" />
-									<input class="btn btn-2" type="button" value="-" ng-click="display2(page.parentId)" />
+				<?php for($x=1; $x<=3; $x++): ?>
+					<div class="col-sm-4 body-text">
+						<div class="navi-item" ng-repeat="page in pagesL<?= $x ?>">
+							<div class="" ng-class="{'ng-border-1 page-navigation-selected': pagesL<?= $x ?>.length <= 1, 'ng-border-2 page_navigation': pagesL<?= $x ?>.length > 1}">
+								<div class="row full-width no-margin">
+									<div class="col-xs-10">
+										<a href="{{page.url}}" class="page-link left-padding-sm">
+										    {{page.dName}}
+										</a>
+									</div>
+									<div class="col-xs-2" ng-if="page.children">
+										<input class="btn btn-1" type="button" value="+" ng-click="display<?= ($x+1) ?>(page.id)" ng-if="pagesL<?= $x?>.length > 1"/>
+										<?php if(1 == $x): ?>
+											<input class="btn btn-2" type="button" value="-" ng-click="display<?= $x?>(page.id)" ng-if="pagesL<?= $x?>.length <= 1"/>
+										<?php else: ?>
+											<input class="btn btn-2" type="button" value="-" ng-click="display<?= $x?>(page.parentId)" ng-if="pagesL<?= $x?>.length <= 1"/>
+										<?php endif; ?>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- Opening div for Pages Level 3 -->
-				<div class="col-md-4 body-text">
-					<div class="navi-item" ng-repeat="page in pagesL3">
-						<div class="page_navigation ng-border-2">
-							<div class="row">
-								<div class="col-xs-8">
-									<a href="{{page.url}}" class="page-link left-padding-sm">
-									    {{page.dName}}
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<?php endfor; ?>
 			</div>
 		</navigate>
 	</div>
