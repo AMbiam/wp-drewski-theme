@@ -52,10 +52,10 @@
 				<?php for($x=1; $x<=3; $x++): ?>
 					<div class="col-sm-4 body-text">
 						<div class="navi-item" ng-repeat="page in pagesL<?= $x ?>">
-							<div class="" ng-class="{'ng-border-1 page-navigation-selected': pagesL<?= $x ?>.length <= 1, 'ng-border-2 page_navigation': pagesL<?= $x ?>.length > 1}">
+							<div class="page_navigation" ng-class="{'page-navigation-selected': pagesL<?= $x ?>.length <= 1, 'ng-border-2 border': pagesL<?= $x ?>.length > 1}">
 								<div class="row full-width no-margin">
 									<div class="col-xs-10">
-										<a href="{{page.url}}" class="page-link left-padding-sm">
+										<a href="{{page.url}}" class="page-link left-padding-sm" ng-class="{'alt-url': pagesL<?= $x ?>.length <= 1}">
 										    {{page.dName}}
 										</a>
 									</div>

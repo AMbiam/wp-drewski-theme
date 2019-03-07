@@ -200,16 +200,21 @@ a:hover{text-decoration: none;}
 }
 
 .page_navigation{
-	border-style: solid;
-	border-width: 1px;
+	margin-top: 5px;
 }
 
 .page_navigation:hover{
 	background-color: #FFE9E6;
 }
 
-.page-navigation-selected{
+.border{
 	border-style: solid;
 	border-width: 1px;
-	background-color: #FFE9E6;
+}
+.page-navigation-selected{
+	background-color: #FF4C3B;
+}
+
+.page-navigation-selected:hover{
+	background-color: #FF4C3B;
 }
