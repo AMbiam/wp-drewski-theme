@@ -178,6 +178,8 @@ a:hover{text-decoration: none;}
 	position: relative;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	/*margin-left: -15%;
+	margin-right: -15%;*/
 }
 .splash-cover{
 	width: 100%;
@@ -211,6 +213,12 @@ a:hover{text-decoration: none;}
 	border-style: solid;
 	border-width: 1px;
 }
+
+.border-sm{
+	border-style: solid;
+	border-width: .5px;
+}
+
 .page-navigation-selected{
 	background-color: #FF4C3B;
 }

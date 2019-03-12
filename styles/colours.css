@@ -19,6 +19,7 @@
 
 .ng-color-white {color: #fff;}
 .ng-bg-white {background-color: #fff;}
+.ng-border-white {border-color: #fff;}
 
 .tab-color-main{background-color: #0072BB;}/*Blue*/
 .tab-color-main:hover{background-color: #4095CC;} /*Blue Tint*/
