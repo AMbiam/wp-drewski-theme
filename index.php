@@ -3,7 +3,7 @@
 
 		<?php get_sidebar(); ?>
 
-		<div id="view" class="template-col">
+		<div id="view" class="template-col row">
 			<div id="wp_content">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<!-- contents of the loop -->
