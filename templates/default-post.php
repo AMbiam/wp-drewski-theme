@@ -13,7 +13,7 @@
 		<div class="splash-cover"></div>
 
 		<div class="splash-text">
-			<p class="blog-post-meta secondary-font-color subheader-lg ng-bg-3">
+			<p class="blog-post-meta secondary-font-color subheader-lg theme-accent-bg">
 				Published: <?php the_date();?>
 			</p>
 		</div>
@@ -23,7 +23,7 @@
 
 <div id="wp-main-content">
 	<div class="row">
-		<div class="col-sm-offset-1 col-sm-10 basic-border ng-border-3">
+		<div class="col-sm-offset-1 col-sm-10 basic-border theme-accent-brdr">
 			<?php the_content(); ?>
 		</div>
 	</div>

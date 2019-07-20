@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-	<div class="container-fluid">
 
-		<?php get_sidebar(); ?>
+<!-- Sidebar and Navigation Menu -->
+<?php get_sidebar(); ?>
 
+<div class="container-fluid">
 		<div id="view" class="template-col row">
 			<div id="wp_content">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -36,5 +37,5 @@
 			<?php include('templates/posts.php'); ?>
 		</div>
 
-	</div>
+</div>
 <?php get_footer(); ?>

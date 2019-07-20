@@ -1,38 +1,11 @@
-/*Neutral Greens*/
-.ng-color-1 {color: #0072BB;} /*Blue*/
-.ng-bg-1 {background-color: #0072BB;} /*Blue*/
-.ng-border-1 {border-color: #0072BB;} /*Blue*/
 
-.ng-color-2 {color: #FF4C3B;} /*Red*/
-.ng-bg-2 {background-color: #FF4C3B;} /*Red*/
-.ng-border-2 {border-color: #FF4C3B;}
+.ng-color-black {color: #000;} /*Grey*/
+.ng-bg-black {background-color: #000;} /*Grey*/
 
-.ng-color-3 {color: #FFD034;} /*Gold*/
-.ng-bg-3 {background-color: #FFD034;} /*Gold*/
-.ng-border-3 {border-color: #FFD034;}
-
-.ng-color-4 {color: #C6C8CA;} /*Grey*/
-.ng-bg-4 {background-color: #C6C8CA;} /*Grey*/
-
-.ng-color-black {color: #000;}
-.ng-bg-black {background-color: #000;}
-
-.ng-color-white {color: #fff;}
-.ng-bg-white {background-color: #fff;}
-.ng-border-white {border-color: #fff;}
-
-.tab-color-main{background-color: #0072BB;}/*Blue*/
-.tab-color-main:hover{background-color: #4095CC;} /*Blue Tint*/
-
-.font-color-main{color: #fff;}
-.font-color-main:hover{color: #FFD034;}
-
-a{text-decoration: none;color: #FF4C3B;}
-a:hover{text-decoration: none;color: #FFD034;}
-
-.alt-url{text-decoration: none;color: #fff;}
-.alt-url:hover{text-decoration: none;color: #FFD034;}
-
+.ng-color-white {color: #fff;} /*Grey*/
+.ng-bg-white {background-color: #fff;} /*Grey*/
+.ng-border-white {border-color: #fff;} /*Grey*/
+/*
 .btn-1{
 	color: #fff;
     background-color: #C6C8CA;
@@ -44,4 +17,4 @@ a:hover{text-decoration: none;color: #FFD034;}
     background-color: #C6C8CA;
     border-color: #FF4C3B;
 }
-.btn-2:hover{ background-color: #FF4C3B; }
+.btn-2:hover{ background-color: #FF4C3B; }*/

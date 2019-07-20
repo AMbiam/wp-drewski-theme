@@ -68,4 +68,3 @@
         JQuery Functions go here.
       */
     });
-

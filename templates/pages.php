@@ -18,10 +18,10 @@
 	);
 	$pages = get_pages($args);
 ?>
-<div id="pages" class="hide">
+<div id="pages" class="container-fluid hide">
 	<div class="row">
 		<div class="col-sm-4">
-			<h1 class="header-lg ng-color-2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
+			<h1 class="header-lg theme-accent-fc"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Pages</h1>
 		</div>
 	</div>
 	<div ng-app="myApp">
@@ -52,7 +52,7 @@
 				<?php for($x=1; $x<=3; $x++): ?>
 					<div class="col-sm-4 body-text">
 						<div class="navi-item" ng-repeat="page in pagesL<?= $x ?>">
-							<div class="page_navigation" ng-class="{'page-navigation-selected': pagesL<?= $x ?>.length <= 1, 'ng-border-2 border': pagesL<?= $x ?>.length > 1}">
+							<div class="page_navigation" ng-class="{'theme-primary-bg': pagesL<?= $x ?>.length <= 1, 'theme-secondary-brdr border': pagesL<?= $x ?>.length > 1}">
 								<div class="row full-width no-margin">
 									<div class="col-xs-10">
 										<a href="{{page.url}}" class="page-link left-padding-sm" ng-class="{'alt-url': pagesL<?= $x ?>.length <= 1}">
@@ -60,11 +60,11 @@
 										</a>
 									</div>
 									<div class="col-xs-2" ng-if="page.children">
-										<input class="btn btn-1" type="button" value="+" ng-click="display<?= ($x+1) ?>(page.id)" ng-if="pagesL<?= $x?>.length > 1"/>
+										<input class="nav-tab" type="button" value="+" ng-click="display<?= ($x+1) ?>(page.id)" ng-if="pagesL<?= $x?>.length > 1"/>
 										<?php if(1 == $x): ?>
-											<input class="btn btn-2" type="button" value="-" ng-click="display<?= $x?>(page.id)" ng-if="pagesL<?= $x?>.length <= 1"/>
+											<input class="nav-tab" type="button" value="-" ng-click="display<?= $x?>(page.id)" ng-if="pagesL<?= $x?>.length <= 1"/>
 										<?php else: ?>
-											<input class="btn btn-2" type="button" value="-" ng-click="display<?= $x?>(page.parentId)" ng-if="pagesL<?= $x?>.length <= 1"/>
+											<input class="nav-tab" type="button" value="-" ng-click="display<?= $x?>(page.parentId)" ng-if="pagesL<?= $x?>.length <= 1"/>
 										<?php endif; ?>
 									</div>
 								</div>

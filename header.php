@@ -26,7 +26,7 @@ require('config.php');
 		<link href="<?= CSS_STYLES; ?>font.css" rel="stylesheet">
 		<link href="<?= CSS_STYLES; ?>colours.css" rel="stylesheet">
 		<link href="<?= CSS_STYLES; ?>animate.css" rel="stylesheet">
-		
+		<?php require('styles/default.css.php'); ?>
 
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/portfolio.js"></script>
 		

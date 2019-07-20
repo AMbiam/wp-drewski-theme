@@ -78,11 +78,11 @@
 	/*background-color: #579e51;*/
 	color:#579e51;
 }
-
+/*
 .nav-tab{ color:#41773d; padding:2px;}
 .nav-tab:hover{ background-color: #162814; color:#579e51; }
 .nav-tab-hz{padding:2px; vertical-align: bottom;}
-
+*/
 
 .full-width{ width:100%; }
 .three-quarter-width{ width:75%; }
@@ -148,13 +148,6 @@ body{
 .tp-large{ padding-top: 5vw; }
 .tp-medium{ padding-top: 3vw; }
 
-a{text-decoration: none;}
-a:hover{text-decoration: none;}
-
-#page_navigation{
-	background-color: #579e51;
-}
-
 #stripe{
 	position: fixed;
 	right: 0;
@@ -205,9 +198,6 @@ a:hover{text-decoration: none;}
 	margin-top: 5px;
 }
 
-.page_navigation:hover{
-	background-color: #FFE9E6;
-}
 
 .border{
 	border-style: solid;
